@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AC753852441911D0055CFFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC753842441911D0055CFFB /* AppDelegate.swift */; };
+		6AC753872441911D0055CFFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC753862441911D0055CFFB /* SceneDelegate.swift */; };
+		6AC753892441911D0055CFFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC753882441911D0055CFFB /* ContentView.swift */; };
+		6AC7538B244191210055CFFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AC7538A244191210055CFFB /* Assets.xcassets */; };
+		6AC7538E244191210055CFFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AC7538D244191210055CFFB /* Preview Assets.xcassets */; };
+		6AC75391244191210055CFFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AC7538F244191210055CFFB /* LaunchScreen.storyboard */; };
+		6AC7539C244191210055CFFB /* Lakshay_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7539B244191210055CFFB /* Lakshay_AppTests.swift */; };
+		6AC753A7244191210055CFFB /* Lakshay_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC753A6244191210055CFFB /* Lakshay_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AC75398244191210055CFFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AC753792441911D0055CFFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AC753802441911D0055CFFB;
+			remoteInfo = "Lakshay App";
+		};
+		6AC753A3244191210055CFFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AC753792441911D0055CFFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AC753802441911D0055CFFB;
+			remoteInfo = "Lakshay App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6AC753812441911D0055CFFB /* Lakshay App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lakshay App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC753842441911D0055CFFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6AC753862441911D0055CFFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6AC753882441911D0055CFFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6AC7538A244191210055CFFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AC7538D244191210055CFFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6AC75390244191210055CFFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AC75392244191210055CFFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AC75397244191210055CFFB /* Lakshay AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lakshay AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC7539B244191210055CFFB /* Lakshay_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lakshay_AppTests.swift; sourceTree = "<group>"; };
+		6AC7539D244191210055CFFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AC753A2244191210055CFFB /* Lakshay AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lakshay AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC753A6244191210055CFFB /* Lakshay_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lakshay_AppUITests.swift; sourceTree = "<group>"; };
+		6AC753A8244191210055CFFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AC7537E2441911D0055CFFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AC75394244191210055CFFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AC7539F244191210055CFFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AC753782441911D0055CFFB = {
+			isa = PBXGroup;
+			children = (
+				6AC753832441911D0055CFFB /* Lakshay App */,
+				6AC7539A244191210055CFFB /* Lakshay AppTests */,
+				6AC753A5244191210055CFFB /* Lakshay AppUITests */,
+				6AC753822441911D0055CFFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AC753822441911D0055CFFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AC753812441911D0055CFFB /* Lakshay App.app */,
+				6AC75397244191210055CFFB /* Lakshay AppTests.xctest */,
+				6AC753A2244191210055CFFB /* Lakshay AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AC753832441911D0055CFFB /* Lakshay App */ = {
+			isa = PBXGroup;
+			children = (
+				6AC753842441911D0055CFFB /* AppDelegate.swift */,
+				6AC753862441911D0055CFFB /* SceneDelegate.swift */,
+				6AC753882441911D0055CFFB /* ContentView.swift */,
+				6AC7538A244191210055CFFB /* Assets.xcassets */,
+				6AC7538F244191210055CFFB /* LaunchScreen.storyboard */,
+				6AC75392244191210055CFFB /* Info.plist */,
+				6AC7538C244191210055CFFB /* Preview Content */,
+			);
+			path = "Lakshay App";
+			sourceTree = "<group>";
+		};
+		6AC7538C244191210055CFFB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6AC7538D244191210055CFFB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6AC7539A244191210055CFFB /* Lakshay AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AC7539B244191210055CFFB /* Lakshay_AppTests.swift */,
+				6AC7539D244191210055CFFB /* Info.plist */,
+			);
+			path = "Lakshay AppTests";
+			sourceTree = "<group>";
+		};
+		6AC753A5244191210055CFFB /* Lakshay AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6AC753A6244191210055CFFB /* Lakshay_AppUITests.swift */,
+				6AC753A8244191210055CFFB /* Info.plist */,
+			);
+			path = "Lakshay AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AC753802441911D0055CFFB /* Lakshay App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AC753AB244191210055CFFB /* Build configuration list for PBXNativeTarget "Lakshay App" */;
+			buildPhases = (
+				6AC7537D2441911D0055CFFB /* Sources */,
+				6AC7537E2441911D0055CFFB /* Frameworks */,
+				6AC7537F2441911D0055CFFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lakshay App";
+			productName = "Lakshay App";
+			productReference = 6AC753812441911D0055CFFB /* Lakshay App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AC75396244191210055CFFB /* Lakshay AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AC753AE244191210055CFFB /* Build configuration list for PBXNativeTarget "Lakshay AppTests" */;
+			buildPhases = (
+				6AC75393244191210055CFFB /* Sources */,
+				6AC75394244191210055CFFB /* Frameworks */,
+				6AC75395244191210055CFFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AC75399244191210055CFFB /* PBXTargetDependency */,
+			);
+			name = "Lakshay AppTests";
+			productName = "Lakshay AppTests";
+			productReference = 6AC75397244191210055CFFB /* Lakshay AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6AC753A1244191210055CFFB /* Lakshay AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AC753B1244191210055CFFB /* Build configuration list for PBXNativeTarget "Lakshay AppUITests" */;
+			buildPhases = (
+				6AC7539E244191210055CFFB /* Sources */,
+				6AC7539F244191210055CFFB /* Frameworks */,
+				6AC753A0244191210055CFFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AC753A4244191210055CFFB /* PBXTargetDependency */,
+			);
+			name = "Lakshay AppUITests";
+			productName = "Lakshay AppUITests";
+			productReference = 6AC753A2244191210055CFFB /* Lakshay AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AC753792441911D0055CFFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Lakshay Nanda";
+				TargetAttributes = {
+					6AC753802441911D0055CFFB = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					6AC75396244191210055CFFB = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 6AC753802441911D0055CFFB;
+					};
+					6AC753A1244191210055CFFB = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 6AC753802441911D0055CFFB;
+					};
+				};
+			};
+			buildConfigurationList = 6AC7537C2441911D0055CFFB /* Build configuration list for PBXProject "Lakshay App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AC753782441911D0055CFFB;
+			productRefGroup = 6AC753822441911D0055CFFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AC753802441911D0055CFFB /* Lakshay App */,
+				6AC75396244191210055CFFB /* Lakshay AppTests */,
+				6AC753A1244191210055CFFB /* Lakshay AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AC7537F2441911D0055CFFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AC75391244191210055CFFB /* LaunchScreen.storyboard in Resources */,
+				6AC7538E244191210055CFFB /* Preview Assets.xcassets in Resources */,
+				6AC7538B244191210055CFFB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AC75395244191210055CFFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AC753A0244191210055CFFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AC7537D2441911D0055CFFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AC753852441911D0055CFFB /* AppDelegate.swift in Sources */,
+				6AC753872441911D0055CFFB /* SceneDelegate.swift in Sources */,
+				6AC753892441911D0055CFFB /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AC75393244191210055CFFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AC7539C244191210055CFFB /* Lakshay_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AC7539E244191210055CFFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AC753A7244191210055CFFB /* Lakshay_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AC75399244191210055CFFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AC753802441911D0055CFFB /* Lakshay App */;
+			targetProxy = 6AC75398244191210055CFFB /* PBXContainerItemProxy */;
+		};
+		6AC753A4244191210055CFFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AC753802441911D0055CFFB /* Lakshay App */;
+			targetProxy = 6AC753A3244191210055CFFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6AC7538F244191210055CFFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AC75390244191210055CFFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AC753A9244191210055CFFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AC753AA244191210055CFFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AC753AC244191210055CFFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lakshay App/Preview Content\"";
+				DEVELOPMENT_TEAM = 89LESYY252;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Lakshay App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-lakshaynanda.Lakshay-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AC753AD244191210055CFFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lakshay App/Preview Content\"";
+				DEVELOPMENT_TEAM = 89LESYY252;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Lakshay App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-lakshaynanda.Lakshay-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6AC753AF244191210055CFFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89LESYY252;
+				INFOPLIST_FILE = "Lakshay AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-lakshaynanda.Lakshay-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lakshay App.app/Lakshay App";
+			};
+			name = Debug;
+		};
+		6AC753B0244191210055CFFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89LESYY252;
+				INFOPLIST_FILE = "Lakshay AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-lakshaynanda.Lakshay-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lakshay App.app/Lakshay App";
+			};
+			name = Release;
+		};
+		6AC753B2244191210055CFFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89LESYY252;
+				INFOPLIST_FILE = "Lakshay AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-lakshaynanda.Lakshay-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lakshay App";
+			};
+			name = Debug;
+		};
+		6AC753B3244191210055CFFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89LESYY252;
+				INFOPLIST_FILE = "Lakshay AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-lakshaynanda.Lakshay-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lakshay App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AC7537C2441911D0055CFFB /* Build configuration list for PBXProject "Lakshay App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AC753A9244191210055CFFB /* Debug */,
+				6AC753AA244191210055CFFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AC753AB244191210055CFFB /* Build configuration list for PBXNativeTarget "Lakshay App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AC753AC244191210055CFFB /* Debug */,
+				6AC753AD244191210055CFFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AC753AE244191210055CFFB /* Build configuration list for PBXNativeTarget "Lakshay AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AC753AF244191210055CFFB /* Debug */,
+				6AC753B0244191210055CFFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AC753B1244191210055CFFB /* Build configuration list for PBXNativeTarget "Lakshay AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AC753B2244191210055CFFB /* Debug */,
+				6AC753B3244191210055CFFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AC753792441911D0055CFFB /* Project object */;
+}
